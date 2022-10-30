@@ -5,7 +5,14 @@
       "username": "Ernesto",
       "password": "Valverde",
       "phone": "27897981",
-      "email": "someone@somesite.com"
+      "email": "ernesto@alphas.com"
+    },
+    {
+      "id": 2,
+      "username": "Admin",
+      "password": "admin",
+      "phone": "99999999",
+      "email": "admin@admin.com"
     }
   ],
   "employees": [

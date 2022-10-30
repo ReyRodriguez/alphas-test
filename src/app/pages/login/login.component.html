@@ -1,3 +1,35 @@
-<p>
-  login works!
-</p>
+
+
+<div class="bg">
+
+  <div class="columns ">
+
+    <div class="login-box" [@EnterLeave]="'flyIn'">
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <div class="signin" >
+          <h1 class="topline">Login</h1>
+          <br />
+          <div class="input-field">
+            <input id="email" type="email" name="email" formControlName="email" placeholder="Input your Email" />
+
+          </div>
+
+          <div class="input-field">
+            <input id="password" type="password" name="password" formControlName="password" placeholder="Password" />
+
+          </div>
+          <div class="login-box-button">
+            <button
+              [ngClass]="
+                !loginForm.valid ? 'primary-button-disabled' : 'primary-button'
+              "
+              type="submit"
+              [disabled]="!loginForm.valid"
+            >
+              Acceder
+            </button>
+          </div>
+        </div>
+      </form>
+
+    </div>
