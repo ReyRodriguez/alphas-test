@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Ernesto",
+      "password": "Valverde",
+      "phone": "27897981",
+      "email": "someone@somesite.com"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Ernesto",
+      "lastname": "Valverde",
+      "position": "Forntend Developer",
+      "phone": "27897981",
+      "email": "someone@somesite.com"
+    }
+  ]
+}
