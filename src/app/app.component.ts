@@ -9,6 +9,4 @@ import { Observable } from 'rxjs';
 })
 export class AppComponent {
   title = 'alphas';
-  constructor(private http: HttpClient) {}
-  employees$: Observable<any> = this.http.get('api/employees');
 }
