@@ -3,17 +3,21 @@ import { CommonModule } from '@angular/common';
 
 import { DirectoryRoutingModule } from './directory-routing.module';
 import { DirectoryComponent } from './directory.component';
-import { ReactiveFormsModule } from '@angular/forms';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { HeaderModule } from 'src/app/components/header/header.module';
 
 @NgModule({
   declarations: [
-    DirectoryComponent,
+    DirectoryComponent
   ],
   imports: [
     CommonModule,
     DirectoryRoutingModule,
     ReactiveFormsModule,
+    FormsModule,
+    Ng2SearchPipeModule,
+    HeaderModule
   ]
 })
 export class DirectoryModule { }

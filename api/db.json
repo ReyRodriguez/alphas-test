@@ -10,7 +10,7 @@
     {
       "id": 2,
       "username": "Admin",
-      "password": "admin",
+      "password": "123456",
       "phone": "99999999",
       "email": "admin@admin.com"
     }
@@ -22,7 +22,188 @@
       "lastname": "Valverde",
       "position": "Forntend Developer",
       "phone": "27897981",
-      "email": "someone@somesite.com"
+      "email": "someone@somesite.com",
+      "img": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairFrizzle&accessoriesType=Blank&hairColor=SilverGray&facialHairType=MoustacheMagnum&facialHairColor=Red&clotheType=Hoodie&clotheColor=Heather&eyeType=Dizzy&eyebrowType=UpDown&mouthType=ScreamOpen&skinColor=DarkBrown"
+    },
+    {
+      "id": 2,
+      "name": "Daniel",
+      "lastname": "Alvarez",
+      "position": "Backend Developer",
+      "phone": "21412512",
+      "email": "daniel@gmail.com",
+      "img": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairSides&accessoriesType=Prescription02&hairColor=Blue&facialHairType=BeardLight&facialHairColor=Black&clotheType=GraphicShirt&clotheColor=PastelYellow&graphicType=Skull&eyeType=Squint&eyebrowType=RaisedExcited&mouthType=Vomit&skinColor=Yellow"
+    },
+    {
+      "id": 3,
+      "name": "Pedro",
+      "lastname": "Duran",
+      "position": "Forntend Developer",
+      "phone": "51516161",
+      "email": "pedro@hotmail.com",
+      "img": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairFrizzle&accessoriesType=Prescription01&hairColor=BrownDark&facialHairType=Blank&facialHairColor=Auburn&clotheType=BlazerSweater&clotheColor=PastelOrange&eyeType=Surprised&eyebrowType=UpDown&mouthType=Tongue&skinColor=DarkBrown"
+    },
+    {
+      "id": 4,
+      "name": "Camila",
+      "lastname": "Santorini",
+      "position": "Analista de Adquisición de Talento Humano IT",
+      "phone": "377854745",
+      "email": "camila@outlook.com",
+      "img": "https://avataaars.io/?avatarStyle=Circle&topType=Hat&accessoriesType=Wayfarers&hairColor=Black&facialHairType=BeardLight&facialHairColor=Red&clotheType=BlazerShirt&eyeType=Hearts&eyebrowType=Default&mouthType=Default&skinColor=Tanned"
+    },
+    {
+      "id": 5,
+      "name": "Manuel",
+      "lastname": "Adelmo",
+      "position": "Especialista en gestión del Talento",
+      "phone": "0989867786",
+      "email": "manuel@gmail.com",
+      "img": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairDreads&accessoriesType=Blank&hatColor=Blue02&hairColor=Brown&facialHairType=MoustacheMagnum&facialHairColor=BlondeGolden&clotheType=BlazerShirt&clotheColor=PastelGreen&eyeType=WinkWacky&eyebrowType=Angry&mouthType=Smile&skinColor=Pale"
+    },
+    {
+      "id": 6,
+      "name": "Paula",
+      "lastname": "Roa",
+      "position": "BackEnd Developer",
+      "phone": "986798767896",
+      "email": "paula@aphastech.com",
+      "img": "https://avataaars.io/?avatarStyle=Circle&topType=WinterHat1&accessoriesType=Prescription01&hatColor=Blue03&hairColor=BlondeGolden&facialHairType=Blank&facialHairColor=BlondeGolden&clotheType=ShirtScoopNeck&clotheColor=White&eyeType=Cry&eyebrowType=FlatNatural&mouthType=ScreamOpen&skinColor=Yellow"
+    },
+    {
+      "id": 7,
+      "name": "Diego",
+      "lastname": "Karabin",
+      "position": "CEO",
+      "phone": "0928081290",
+      "email": "diego@alphastech.com",
+      "img": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairShavedSides&accessoriesType=Kurt&hairColor=Auburn&facialHairType=MoustacheMagnum&facialHairColor=Brown&clotheType=BlazerSweater&clotheColor=Gray02&eyeType=Wink&eyebrowType=AngryNatural&mouthType=Concerned&skinColor=Light"
+    },
+    {
+      "id": 8,
+      "name": "Johan",
+      "lastname": "Juarez",
+      "position": "Forntend Developer",
+      "phone": "987829782",
+      "email": "johan@somesite.com",
+      "img": "https://avataaars.io/?avatarStyle=Circle&topType=Hijab&accessoriesType=Kurt&hatColor=Gray01&hairColor=PastelPink&facialHairType=MoustacheMagnum&facialHairColor=Black&clotheType=ShirtCrewNeck&clotheColor=Gray01&eyeType=Happy&eyebrowType=UpDown&mouthType=Tongue&skinColor=Tanned"
+    },
+    {
+      "id": 9,
+      "name": "Luis",
+      "lastname": "Suarez",
+      "position": "Desarrollador full stack",
+      "phone": "908289298",
+      "email": "luis@altavista.com",
+      "img": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairTheCaesarSidePart&accessoriesType=Prescription01&hairColor=Red&facialHairType=BeardMedium&facialHairColor=BlondeGolden&clotheType=BlazerSweater&clotheColor=Heather&eyeType=Default&eyebrowType=UpDownNatural&mouthType=Smile&skinColor=Brown"
+    },
+    {
+      "id": 10,
+      "name": "Valentina",
+      "lastname": "Rasetta",
+      "position": "CTO",
+      "phone": "289879121",
+      "email": "valentina@gmail.com",
+      "img": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraightStrand&accessoriesType=Round&hairColor=BrownDark&facialHairType=MoustacheMagnum&facialHairColor=Auburn&clotheType=ShirtScoopNeck&clotheColor=PastelRed&eyeType=Hearts&eyebrowType=SadConcerned&mouthType=Tongue&skinColor=Pale"
+    },
+    {
+      "id": 11,
+      "name": "Kisbel",
+      "lastname": "Blanco",
+      "position": "Gerente general de recursos humanos",
+      "phone": "892789179",
+      "email": "kisbel@hotmail.com",
+      "img": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairSides&accessoriesType=Sunglasses&hatColor=Pink&hairColor=Platinum&facialHairType=BeardLight&facialHairColor=Black&clotheType=CollarSweater&clotheColor=Gray02&eyeType=Close&eyebrowType=UpDownNatural&mouthType=Serious&skinColor=Pale"
+    },
+    {
+      "id": 12,
+      "name": "Valentina",
+      "lastname": "Leal",
+      "position": "Account Manager",
+      "phone": "2091909081",
+      "email": "valentinaleal@somesite.com",
+      "img": "https://avataaars.io/?avatarStyle=Circle&topType=Turban&accessoriesType=Blank&hatColor=Blue03&hairColor=BlondeGolden&facialHairType=BeardMajestic&facialHairColor=Black&clotheType=BlazerSweater&clotheColor=Pink&eyeType=Happy&eyebrowType=FlatNatural&mouthType=Smile&skinColor=DarkBrown"
+    },
+    {
+      "id": 13,
+      "name": "Jessica",
+      "lastname": "Zerpa",
+      "position": "Desarrollador web",
+      "phone": "122131091",
+      "email": "jessica@gmail.com",
+      "img": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairFrizzle&accessoriesType=Sunglasses&hairColor=Brown&facialHairType=Blank&facialHairColor=Platinum&clotheType=Hoodie&clotheColor=PastelGreen&eyeType=Side&eyebrowType=Default&mouthType=Eating&skinColor=Black"
+    },
+    {
+      "id": 14,
+      "name": "Marcos",
+      "lastname": "Chourio",
+      "position": "Scrum Master",
+      "phone": "2098112312",
+      "email": "marcos@alphas.com",
+      "img": "https://avataaars.io/?avatarStyle=Circle&topType=Eyepatch&accessoriesType=Wayfarers&hairColor=Platinum&facialHairType=MoustacheFancy&facialHairColor=Black&clotheType=Hoodie&clotheColor=Blue02&eyeType=Happy&eyebrowType=DefaultNatural&mouthType=ScreamOpen&skinColor=Tanned"
+    },
+    {
+      "id": 15,
+      "name": "Ernesto",
+      "lastname": "Valverde",
+      "position": "Forntend Developer",
+      "phone": "27897981",
+      "email": "someone@somesite.com",
+      "img": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairNotTooLong&accessoriesType=Sunglasses&hairColor=Auburn&facialHairType=MoustacheFancy&facialHairColor=Platinum&clotheType=BlazerShirt&clotheColor=Heather&eyeType=EyeRoll&eyebrowType=RaisedExcited&mouthType=Smile&skinColor=Brown"
+    },
+    {
+      "id": 16,
+      "name": "Alexis",
+      "lastname": "Mendes",
+      "position": "SEO Engineer",
+      "phone": "2901809312",
+      "email": "alexis@gmail.com",
+      "img": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairFrida&accessoriesType=Sunglasses&facialHairType=MoustacheFancy&facialHairColor=BlondeGolden&clotheType=Overall&clotheColor=Black&eyeType=Happy&eyebrowType=FlatNatural&mouthType=Grimace&skinColor=Pale"
+    },
+    {
+      "id": 17,
+      "name": "Miguel",
+      "lastname": "Cordoba",
+      "position": "IT Recruiter",
+      "phone": "2091890223",
+      "email": "miguel@somesite.com",
+      "img": "https://avataaars.io/?avatarStyle=Circle&topType=Hat&accessoriesType=Wayfarers&hairColor=Red&facialHairType=BeardMajestic&facialHairColor=Brown&clotheType=Overall&clotheColor=Heather&eyeType=Hearts&eyebrowType=UpDownNatural&mouthType=Sad&skinColor=Yellow"
+    },
+    {
+      "id": 18,
+      "name": "Sebastian",
+      "lastname": "Marin",
+      "position": "Fullstack Developer",
+      "phone": "0090890123",
+      "email": "sebastian@alhpastech.com",
+      "img": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraightStrand&accessoriesType=Prescription01&hairColor=SilverGray&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue02&eyeType=Happy&eyebrowType=AngryNatural&mouthType=Default&skinColor=Yellow"
+    },
+    {
+      "id": 19,
+      "name": "Kelly",
+      "lastname": "Valdes",
+      "position": ".NET Developer",
+      "phone": "981789013",
+      "email": "kelly@gmail.com",
+      "img": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Round&hairColor=SilverGray&facialHairType=Blank&facialHairColor=Brown&clotheType=ShirtVNeck&clotheColor=PastelRed&eyeType=Side&eyebrowType=Default&mouthType=Vomit&skinColor=Tanned"
+    },
+    {
+      "id": 20,
+      "name": "Beatriz",
+      "lastname": "Romero",
+      "position": "Functional and automation QA",
+      "phone": "189789032",
+      "email": "beatriz@outlook.com",
+      "img": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairBigHair&accessoriesType=Wayfarers&hairColor=BrownDark&facialHairType=MoustacheFancy&facialHairColor=BlondeGolden&clotheType=ShirtScoopNeck&clotheColor=PastelRed&eyeType=Happy&eyebrowType=UpDown&mouthType=ScreamOpen&skinColor=Light"
+    },
+    {
+      "id": 21,
+      "name": "Victor",
+      "lastname": "Clavo",
+      "position": "CFO",
+      "phone": "289801112",
+      "email": "victor@outlook.com",
+      "img": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairSides&accessoriesType=Blank&hairColor=Brown&facialHairType=BeardMajestic&facialHairColor=Black&clotheType=ShirtScoopNeck&clotheColor=Heather&eyeType=Squint&eyebrowType=SadConcernedNatural&mouthType=Smile&skinColor=Black"
     }
   ]
 }

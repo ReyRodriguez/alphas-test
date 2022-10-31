@@ -1,0 +1,16 @@
+<div class="wrapper" [@fadeInOut]>
+  <div class="header-logo">
+    <img
+      *ngIf="showLogo"
+      src="../../../assets/img/logo.png"
+      width="180px"
+      height="100px"
+      alt="Links Logo"
+      routerLink="./home"
+    />
+  </div>
+
+  <div class="header-button">
+    <button class="primary-button" (click)="logOut()">Logout</button>
+  </div>
+</div>

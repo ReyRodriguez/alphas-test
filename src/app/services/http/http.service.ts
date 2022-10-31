@@ -6,6 +6,7 @@ import {
 } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError, map, retry } from 'rxjs/operators';
+import { Employee } from 'src/app/interfaces/employee.model';
 
 @Injectable({
   providedIn: 'root',
@@ -27,6 +28,21 @@ export class HttpService {
     };
     return this.http
       .get<any>('api/users')
+      .pipe(catchError(this.handleError));
+  }
+
+  /**
+   * make te api call to get the employees  list
+   * @returns Observable with the response
+   */
+   getEmployes(): Observable<Employee[]> {
+    const httpOptions = {
+      headers: new HttpHeaders({
+        'Content-Type': 'application/json',
+      }),
+    };
+    return this.http
+      .get<any>('api/employees')
       .pipe(catchError(this.handleError));
   }
 

@@ -1,3 +1,34 @@
-<p>
-  directory works!
-</p>
+<app-header
+  [textButton]="'LOGOUT'"
+  [redirectTo]="'./home'"
+  [showLogo]="true"
+></app-header>
+<div class="wrapper" [@EnterLeave]="'flyIn'">
+  <div class="content">
+    <h1>Directorio de empleados</h1>
+    <div class="search">
+      <input
+        type="text"
+        class="searchTerm"
+        placeholder="Buscar Empleados"
+        [(ngModel)]="filterTerm"
+      />
+    </div>
+
+    <div class="employees-list">
+      <section *ngFor="let employee of employees | filter: filterTerm">
+        <div class="user-card">
+          <div class="user-info">
+            <img [src]="employee.img" alt="avatar" class="avatar" />
+          </div>
+          <div class="user-bio">
+            <h3>{{ employee.lastname | uppercase }}, {{ employee.name }}</h3>
+            <h4>{{ employee.position }}</h4>
+            <p>{{ employee.phone }}</p>
+            <p>{{ employee.email }}</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>

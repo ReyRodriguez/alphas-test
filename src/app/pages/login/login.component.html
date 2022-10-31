@@ -1,22 +1,57 @@
-
-
 <div class="bg">
-
-  <div class="columns ">
-
+  <div class="columns">
     <div class="login-box" [@EnterLeave]="'flyIn'">
       <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
-        <div class="signin" >
-          <h1 class="topline">Login</h1>
+        <div class="signin">
+          <img
+            src="../../../assets/img/logo.png"
+            width="180px"
+            height="200px"
+            alt="Links Logo"
+          />
+          <h1 class="topline">Bienvenido/a</h1>
+          <br />
+          <p class=>Introduce tus credenciales para acceder</p>
           <br />
           <div class="input-field">
-            <input id="email" type="email" name="email" formControlName="email" placeholder="Input your Email" />
-
+            <input
+              id="email"
+              type="email"
+              name="email"
+              formControlName="email"
+              placeholder="Input your Email"
+            />
           </div>
 
           <div class="input-field">
-            <input id="password" type="password" name="password" formControlName="password" placeholder="Password" />
+            <input
+              id="password"
+              type="password"
+              name="password"
+              formControlName="password"
+              placeholder="Password"
+            />
+          </div>
 
+          <div
+            *ngIf="email?.invalid && (email?.dirty || email?.touched)"
+            class="alert-danger"
+          >
+            <div *ngIf="email?.errors?.['required']">
+              el email es requerido.
+            </div>
+            <div *ngIf="email?.errors?.['email']">
+              Debe ser un formato de email correcto.
+            </div>
+          </div>
+
+          <div
+            *ngIf="password?.invalid && (password?.dirty || password?.touched)"
+            class="alert-danger"
+          >
+            <div *ngIf="password?.errors?.['required']">
+              La contraseña es requerida.
+            </div>
           </div>
           <div class="login-box-button">
             <button
@@ -31,5 +66,6 @@
           </div>
         </div>
       </form>
-
     </div>
+  </div>
+</div>

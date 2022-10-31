@@ -1,6 +1,6 @@
-@import "../../scss/mixins";
-@import "../../scss/variables";
-@import "../../scss/buttons";
+@import "../../scss/_mixins";
+@import "../../scss/_variables";
+@import "../../scss/_buttons";
 
 .error-message {
   color: rgb(255, 34, 34);
@@ -107,7 +107,7 @@
     }
   }
   .input-field {
-    width: 75%;
+    width: 95%;
     position: relative;
     i {
       position: relative;
@@ -146,7 +146,6 @@
     }
   }
 
-
   .topline {
     display: inline-block;
     position: relative;
@@ -164,10 +163,14 @@
     }
   }
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  min-width: 400px;
+  min-width: 40%;
   min-height: 200px;
   padding: 4rem 3rem;
   background-color: white;
+}
+
+.alert-danger {
+  color: red;
 }
 
 @media screen and (max-width: 776px) {
